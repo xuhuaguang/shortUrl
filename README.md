@@ -1,5 +1,4 @@
 ## urls 短链接生成服务
-[演示地址](http://urls.eae.me/)
 
 #### 此服务实现的想法来自于知乎对于短链接生成的一些讨论。
 [https://www.zhihu.com/question/29270034](http://note.youdao.com/)
