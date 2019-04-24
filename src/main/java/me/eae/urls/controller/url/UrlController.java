@@ -1,0 +1,37 @@
+package me.eae.urls.controller.url;
+
+import me.eae.urls.modle.Result;
+import me.eae.urls.modle.Url;
+import me.eae.urls.service.url.UrlService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.*;
+
+@Controller
+@RequestMapping("/")
+public class UrlController {
+    @Autowired
+    UrlService urlService;
+    @GetMapping("/")
+    public String index() {
+        return "/index";
+    }
+
+    @GetMapping("/{id}")
+    public String redirect(@PathVariable("id") String id) {
+        Url u = urlService.getUrl(id);
+        if(u==null){
+            return "/404";
+        }
+        return "redirect:"+u.getUrl();
+    }
+
+    @PostMapping("/getShortUrl")
+    @ResponseBody
+    public Result getShortUrl(Url url){
+
+        String urls = urlService.saveUrl(url);
+        return Result.OK(urls);
+    }
+
+}

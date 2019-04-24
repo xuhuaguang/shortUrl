@@ -1,0 +1,110 @@
+2019-04-24 16:10:34 -Starting UrlsApplication on DESKTOP-SBLVV0K with PID 20976 (D:\cloneproject\urls\target\classes started by 123 in D:\cloneproject\urls)
+2019-04-24 16:10:34 -No active profile set, falling back to default profiles: default
+2019-04-24 16:10:34 -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@bef2d72: startup date [Wed Apr 24 16:10:34 CST 2019]; root of context hierarchy
+2019-04-24 16:10:35 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 16:10:37 -Tomcat initialized with port(s): 8080 (http)
+2019-04-24 16:10:37 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-24 16:10:37 -Starting service [Tomcat]
+2019-04-24 16:10:37 -Starting Servlet Engine: Apache Tomcat/8.5.28
+2019-04-24 16:10:37 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files\MongoDB\Server\bin;D:\Program Files\mysql-5.7.19-winx64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Program Files\Java\jdk1.8.0_60\bin;D:\Program Files\Java\jdk1.8.0_60\jre\bin;D:\Program Files\nodejs\;d:\Program Files\Git\cmd;D:\Program Files\maven\apache-maven-3.3.3\bin;D:\Program Files\Redis\;D:\Program Files (x86)\softwareall\erl10.1\bin;D:\Program Files\RabbitMQ Server\rabbitmq_server-3.7.8\sbin;C:\Users\123\AppData\Local\Microsoft\WindowsApps;D:\Program Files\nodejs\node_global;;.]
+2019-04-24 16:10:38 -Initializing Spring embedded WebApplicationContext
+2019-04-24 16:10:38 -Root WebApplicationContext: initialization completed in 3646 ms
+2019-04-24 16:10:38 -Servlet dispatcherServlet mapped to [/]
+2019-04-24 16:10:38 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-24 16:10:38 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-24 16:10:38 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-24 16:10:38 -Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-24 16:10:39 -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@bef2d72: startup date [Wed Apr 24 16:10:34 CST 2019]; root of context hierarchy
+2019-04-24 16:10:39 -Mapped "{[/],methods=[GET]}" onto public java.lang.String me.eae.urls.controller.url.UrlController.index()
+2019-04-24 16:10:39 -Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String me.eae.urls.controller.url.UrlController.redirect(java.lang.String)
+2019-04-24 16:10:39 -Mapped "{[/getShortUrl],methods=[POST]}" onto public me.eae.urls.modle.Result me.eae.urls.controller.url.UrlController.getShortUrl(me.eae.urls.modle.Url)
+2019-04-24 16:10:39 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-04-24 16:10:39 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-24 16:10:40 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-24 16:10:40 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-24 16:10:40 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-24 16:10:40 -Adding welcome page template: index
+2019-04-24 16:10:40 -Registering beans for JMX exposure on startup
+2019-04-24 16:10:40 -Starting ProtocolHandler ["http-nio-8080"]
+2019-04-24 16:10:40 -Using a shared selector for servlet write/read
+2019-04-24 16:10:40 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-24 16:10:40 -Started UrlsApplication in 6.821 seconds (JVM running for 7.463)
+2019-04-24 16:10:40 -Starting without optional epoll library
+2019-04-24 16:10:40 -Starting without optional kqueue library
+2019-04-24 16:11:50 -A cookie header was received [:sess=eyJ1c2VyIjp7ImFyZWFfbmFtZSI6Iua1i+ivleW4giIsImdyb3VwX25hbWUiOiLmtYvor5XmnYPpmZAiLCJ1c2VyX2lkIjoiMTY2ZjhmZGU4NzM2NDIzYzhmNDI5OGM1OTAxZDViMzciLCJ1c2VyX25hbWUiOiLlvpDmjK8iLCJsb2dpbl9uYW1lIjoic2NlbmVyeSIsInBhc3N3b3JkIjoiOGQ5NjllZWY2ZWNhZDNjMjlhM2E2MjkyODBlNjg2Y2YwYzNmNWQ1YTg2YWZmM2NhMTIwMjBjOTIzYWRjNmM5MiIsImdyb3VwX2lkIjozMTc3LCJhcmVhX2lkIjoiMGIxMTM2N2NkYTliNDdhZWRiMTVhMDg2NWM5NjBiZmEiLCJyZWdfaWQiOiIxOTBlMzVmN2UwNjAyNWJjOGZlIiwiZGVwYXJ0bWVudCI6IjEsMiwzLDQiLCJlbWFpbCI6IiIsIm1vYmlsZV9udW1iZXIiOiIxNTcxODg1NDk3MSIsImxhc3Rfc2lnbl9kYXRlIjoiMjAxOS0wNC0yM1QwOTowMzoxNS4wMDBaIiwibGFzdF9sb2dpbl9pcCI6ImxvY2FsaG9zdCIsImNyZWF0ZV90aW1lc3RhbXAiOiIyMDE4LTExLTAyVDA3OjI2OjM4LjAwMFoiLCJkZWxldGVfc2lnbiI6MSwiYXJlYV9jb2RlIjoiMSIsImxhbmd1YWdlX3R5cGUiOiIxIn19; koa:sess.sig=an5Z62rnPYk9toAy39GPIKyX8Rw] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2019-04-24 16:11:50 -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-24 16:11:50 -FrameworkServlet 'dispatcherServlet': initialization started
+2019-04-24 16:11:51 -FrameworkServlet 'dispatcherServlet': initialization completed in 37 ms
+2019-04-24 16:11:51 -请求地址 : http://localhost:8080/
+2019-04-24 16:11:51 -HTTP METHOD : GET
+2019-04-24 16:11:51 -CLASS_METHOD : me.eae.urls.controller.url.UrlController.index
+2019-04-24 16:11:51 -参数 : []
+2019-04-24 16:11:51 -耗时 : 5
+2019-04-24 16:11:51 -返回值 : /index
+2019-04-24 16:12:03 -请求地址 : http://localhost:8080/getShortUrl
+2019-04-24 16:12:03 -HTTP METHOD : POST
+2019-04-24 16:12:03 -CLASS_METHOD : me.eae.urls.controller.url.UrlController.getShortUrl
+2019-04-24 16:12:03 -参数 : [id:nullurl:https://www.biqumo.com/7_7071/464818116.html]
+2019-04-24 16:12:03 -耗时 : 49
+2019-04-24 16:12:03 -返回值 : {code=0, data=sh}
+2019-04-24 16:18:33 -Starting UrlsApplication on DESKTOP-SBLVV0K with PID 3116 (D:\cloneproject\urls\target\classes started by 123 in D:\cloneproject\urls)
+2019-04-24 16:18:33 -No active profile set, falling back to default profiles: default
+2019-04-24 16:18:34 -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@73d983ea: startup date [Wed Apr 24 16:18:34 CST 2019]; root of context hierarchy
+2019-04-24 16:18:35 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 16:18:36 -Tomcat initialized with port(s): 8080 (http)
+2019-04-24 16:18:36 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-24 16:18:36 -Starting service [Tomcat]
+2019-04-24 16:18:36 -Starting Servlet Engine: Apache Tomcat/8.5.28
+2019-04-24 16:18:36 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files\MongoDB\Server\bin;D:\Program Files\mysql-5.7.19-winx64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Program Files\Java\jdk1.8.0_60\bin;D:\Program Files\Java\jdk1.8.0_60\jre\bin;D:\Program Files\nodejs\;d:\Program Files\Git\cmd;D:\Program Files\maven\apache-maven-3.3.3\bin;D:\Program Files\Redis\;D:\Program Files (x86)\softwareall\erl10.1\bin;D:\Program Files\RabbitMQ Server\rabbitmq_server-3.7.8\sbin;C:\Users\123\AppData\Local\Microsoft\WindowsApps;D:\Program Files\nodejs\node_global;;.]
+2019-04-24 16:18:36 -Initializing Spring embedded WebApplicationContext
+2019-04-24 16:18:36 -Root WebApplicationContext: initialization completed in 2444 ms
+2019-04-24 16:18:36 -Servlet dispatcherServlet mapped to [/]
+2019-04-24 16:18:36 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-24 16:18:36 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-24 16:18:36 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-24 16:18:36 -Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-24 16:18:37 -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@73d983ea: startup date [Wed Apr 24 16:18:34 CST 2019]; root of context hierarchy
+2019-04-24 16:18:37 -Mapped "{[/],methods=[GET]}" onto public java.lang.String me.eae.urls.controller.url.UrlController.index()
+2019-04-24 16:18:37 -Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String me.eae.urls.controller.url.UrlController.redirect(java.lang.String)
+2019-04-24 16:18:37 -Mapped "{[/getShortUrl],methods=[POST]}" onto public me.eae.urls.modle.Result me.eae.urls.controller.url.UrlController.getShortUrl(me.eae.urls.modle.Url)
+2019-04-24 16:18:37 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-04-24 16:18:37 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-24 16:18:37 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-24 16:18:37 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-24 16:18:37 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-24 16:18:38 -Adding welcome page template: index
+2019-04-24 16:18:38 -Registering beans for JMX exposure on startup
+2019-04-24 16:18:38 -Starting ProtocolHandler ["http-nio-8080"]
+2019-04-24 16:18:38 -Using a shared selector for servlet write/read
+2019-04-24 16:18:38 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-24 16:18:38 -Started UrlsApplication in 5.336 seconds (JVM running for 6.693)
+2019-04-24 16:18:38 -Starting without optional epoll library
+2019-04-24 16:18:38 -Starting without optional kqueue library
+2019-04-24 16:18:46 -A cookie header was received [:sess=eyJ1c2VyIjp7ImFyZWFfbmFtZSI6Iua1i+ivleW4giIsImdyb3VwX25hbWUiOiLmtYvor5XmnYPpmZAiLCJ1c2VyX2lkIjoiMTY2ZjhmZGU4NzM2NDIzYzhmNDI5OGM1OTAxZDViMzciLCJ1c2VyX25hbWUiOiLlvpDmjK8iLCJsb2dpbl9uYW1lIjoic2NlbmVyeSIsInBhc3N3b3JkIjoiOGQ5NjllZWY2ZWNhZDNjMjlhM2E2MjkyODBlNjg2Y2YwYzNmNWQ1YTg2YWZmM2NhMTIwMjBjOTIzYWRjNmM5MiIsImdyb3VwX2lkIjozMTc3LCJhcmVhX2lkIjoiMGIxMTM2N2NkYTliNDdhZWRiMTVhMDg2NWM5NjBiZmEiLCJyZWdfaWQiOiIxOTBlMzVmN2UwNjAyNWJjOGZlIiwiZGVwYXJ0bWVudCI6IjEsMiwzLDQiLCJlbWFpbCI6IiIsIm1vYmlsZV9udW1iZXIiOiIxNTcxODg1NDk3MSIsImxhc3Rfc2lnbl9kYXRlIjoiMjAxOS0wNC0yM1QwOTowMzoxNS4wMDBaIiwibGFzdF9sb2dpbl9pcCI6ImxvY2FsaG9zdCIsImNyZWF0ZV90aW1lc3RhbXAiOiIyMDE4LTExLTAyVDA3OjI2OjM4LjAwMFoiLCJkZWxldGVfc2lnbiI6MSwiYXJlYV9jb2RlIjoiMSIsImxhbmd1YWdlX3R5cGUiOiIxIn19; koa:sess.sig=an5Z62rnPYk9toAy39GPIKyX8Rw] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2019-04-24 16:18:46 -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-24 16:18:46 -FrameworkServlet 'dispatcherServlet': initialization started
+2019-04-24 16:18:46 -FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+2019-04-24 16:18:46 -请求地址 : http://localhost:8080/
+2019-04-24 16:18:46 -HTTP METHOD : GET
+2019-04-24 16:18:46 -CLASS_METHOD : me.eae.urls.controller.url.UrlController.index
+2019-04-24 16:18:46 -参数 : []
+2019-04-24 16:18:46 -耗时 : 9
+2019-04-24 16:18:46 -返回值 : /index
+2019-04-24 16:18:56 -请求地址 : http://localhost:8080/getShortUrl
+2019-04-24 16:18:56 -HTTP METHOD : POST
+2019-04-24 16:18:56 -CLASS_METHOD : me.eae.urls.controller.url.UrlController.getShortUrl
+2019-04-24 16:18:56 -参数 : [id:nullurl:https://www.jianshu.com/writer#/notebooks/16841618/notes/45620960/preview]
+2019-04-24 16:18:56 -耗时 : 24
+2019-04-24 16:18:56 -返回值 : {code=0, data=sh}
+2019-04-24 16:19:00 -请求地址 : http://localhost:8080/getShortUrl
+2019-04-24 16:19:00 -HTTP METHOD : POST
+2019-04-24 16:19:00 -CLASS_METHOD : me.eae.urls.controller.url.UrlController.getShortUrl
+2019-04-24 16:19:00 -参数 : [id:nullurl:https://www.jianshu.com/writer#/notebooks/16841618/notes/45620960/preview]
+2019-04-24 16:19:00 -耗时 : 5
+2019-04-24 16:19:00 -返回值 : {code=0, data=sh}
+2019-04-24 16:19:23 -请求地址 : http://localhost:8080/sh
+2019-04-24 16:19:23 -HTTP METHOD : GET
+2019-04-24 16:19:23 -CLASS_METHOD : me.eae.urls.controller.url.UrlController.redirect
+2019-04-24 16:19:23 -参数 : [sh]
+2019-04-24 16:19:23 -耗时 : 1
+2019-04-24 16:19:23 -返回值 : redirect:https://www.jianshu.com/writer#/notebooks/16841618/notes/45620960/preview
