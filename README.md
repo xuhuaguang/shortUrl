@@ -32,3 +32,5 @@ me.eae.urls.idGenerator.RedisIdGenerator.startNum=1
 ## 项目截图
 
 ![输入图片说明](https://gitee.com/uploads/images/2018/0408/133706_856b75e2_778825.png "QQ截图20180408133008.png")
+
+转载地址：https://gitee.com/hao_jiayu/urls    如有问题，劳烦通知删除，谢谢。
