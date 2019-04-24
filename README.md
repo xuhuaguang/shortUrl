@@ -1,12 +1,9 @@
 ## urls 短链接生成服务
-[演示地址](http://urls.eae.me/)
 
 #### 此服务实现的想法来自于知乎对于短链接生成的一些讨论。
-[https://www.zhihu.com/question/29270034](http://note.youdao.com/)
+[https://www.zhihu.com/question/29270034](https://www.zhihu.com/question/29270034)
 #### 本人是参考 @iammutex这位大神的想法来实现的，但有所不同的是，为保证同一个长地址每次转出来都是一样的短地址，这位的想法是创建一个临时表，储存最近几个小时内生成的短链接，过期后淘汰。
 #### 本人的想法是 创建一个 key-value，key为长连接的md5值，value为该长连接对应的短链接。
-
-
 
 
 
@@ -36,6 +33,4 @@ me.eae.urls.idGenerator.RedisIdGenerator.startNum=1
 
 ![输入图片说明](https://gitee.com/uploads/images/2018/0408/133706_856b75e2_778825.png "QQ截图20180408133008.png")
 
-## 规划
-### 增加api调用方式
-### 增加统计功能
+转载地址：https://gitee.com/hao_jiayu/urls    如有问题，劳烦通知删除，谢谢。
