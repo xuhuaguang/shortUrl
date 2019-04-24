@@ -44,9 +44,9 @@ public class UrlServiceImpl implements UrlService {
         //判断该md5是否已经存在
         String sUrl = urlDao.getSurl(md5);
 
-        if(sUrl!=null){
+        if(null != sUrl){
             Url lurl = urlDao.getUrl(sUrl);
-            if(lurl!=null&&lurl.getUrl().equals(url.getUrl())){
+            if(null != lurl && lurl.getUrl().equals(url.getUrl())){
                 return sUrl;
             }
         }

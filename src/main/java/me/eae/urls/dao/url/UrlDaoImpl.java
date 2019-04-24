@@ -29,7 +29,7 @@ public class UrlDaoImpl implements UrlDao{
     public Url getUrl(String id) {
         String url ;
         Object object = hashOperations.get(key,id);
-        if (object==null){
+        if (null == object){
             return null;
         }
         url = (String) object;
@@ -42,7 +42,7 @@ public class UrlDaoImpl implements UrlDao{
     @Override
     public String getSurl(String md5) {
         Object object = hashOperations.get(key_md5,md5);
-        if (object==null){
+        if (null == object){
             return null;
         }
         return (String )object;

@@ -23,7 +23,7 @@ public class UrlController {
         if(u==null){
             return "/404";
         }
-        return "redirect:"+u.getUrl();
+        return "redirect:" + u.getUrl();
     }
 
     @PostMapping("/getShortUrl")
